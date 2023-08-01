@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantics</title>
+    <style>
+        nav{
+            background-color: beige;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: aquamarine;
+            padding: 10px;
+            margin: 10px;
+        }
+        #sec1{
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+            display: inline-block;
+        }
+        #sec1 article{
+            background-color: rgb(159, 216, 216);
+            padding: 10px;
+            margin: 10px;
+            width:max-content ;
+        }
+        main aside{
+            background-color: rgb(28, 43, 43);
+            padding: 10px;
+            margin: 10px;
+            width:max-content ;
+            color: white;
+            display: inline-block;
+        }
+        #sec2{
+            background-color: rgb(3, 209, 245);
+            padding: 10px;
+            margin: 10px;
+            width:max-content ;
+            display: inline-block;
+        }
+        #sec2 article{
+            background-color: rgb(214, 102, 115);
+            padding: 10px;
+            margin: 10px;
+            width:max-content ;
+            display: inline-block;
+        }
+        #aside{
+            background-color: rgb(224, 216, 129);
+            padding: 10px;
+            margin: 10px;
+            width:max-content ;
+            display: inline-block;
+        }
+        footer{
+            background-color: rgb(199, 137, 220);
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>This is nav of a web page</nav>
+    <main>
+        This is main of a web page
+        <br>
+        <section id="sec1">
+            this is section of a web page
+            <article>
+                this is a article of a web page
+            </article>
+        </section>
+        <aside>
+            this  is aside of a web page
+        </aside>
+        <br>
+        <section id="sec2">
+            this is section1 of a web page
+            <br>
+            <article>
+                this is a article1 of a web page
+            </article>
+        </section>
+        <aside id="aside">
+            this  is aside1 of a web page
+        </aside>
+    </main>
+    <footer>
+        this is footer of web page
+    </footer>
+</body>
+</html>
