@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Box-Sizing</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box-1{
+            background-color: red;
+            margin: 30px;
+            height: 400px;
+            width: 233px;
+            border: solid 2px black; 
+        }
+        .box-2{
+            background-color: aqua;
+            /* margin: 20px; */
+            height: 20px;
+            width: 100%;
+            border: solid 1px grey;
+            padding: 6px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-1">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut nobis eaque voluptas quaerat corporis recusandae? Veritatis numquam voluptates harum velit totam est repudiandae a magnam!
+    </div>
+    <div class="box-2">
+    </div>
+</body>
+</html>
